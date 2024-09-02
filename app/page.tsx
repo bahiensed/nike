@@ -1,6 +1,5 @@
-import {
-    Nav,
-} from "@/components";
+import { Nav } from "@/components";
+import Hero from "@/components/Hero";
 
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
       <main>
         <Nav />
         <section>
-          Hero
+          <Hero />
         </section>
 
         <section>
